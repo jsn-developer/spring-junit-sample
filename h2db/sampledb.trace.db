@@ -1,0 +1,4 @@
+2021-04-20 16:53:34 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: テーブル "BOOK" が見つかりません
+Table "BOOK" not found; SQL statement:
+select book0_.id as id1_0_0_, book0_.author as author2_0_0_, book0_.name as name3_0_0_ from book book0_ where book0_.id=? [42102-200]
